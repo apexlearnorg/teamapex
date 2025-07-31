@@ -6,6 +6,15 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 flex items-center justify-center p-4">
       <div className="max-w-4xl mx-auto text-center">
+        {/* Logo Section */}
+        <div className="mb-8">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_deployment-hub/artifacts/ocnxifxg_Unlearn.png" 
+            alt="UNLEARN" 
+            className="mx-auto h-16 md:h-20 w-auto object-contain"
+          />
+        </div>
+
         {/* Main Content Container */}
         <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-8 md:p-12 shadow-2xl">
           
